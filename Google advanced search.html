@@ -1,0 +1,125 @@
+<div class="header">
+    
+    <a id="header_nav" href="https://www.google.com"> Back to google search </a>
+    
+</div>
+
+
+    <style>
+
+
+*{
+           padding: 10px;
+       }
+        a {
+           text-decoration: none;
+       }
+
+       
+       
+
+       div{
+    text-align:right;
+        color:blue}
+       a:visited {
+           color: black;
+       }
+
+       a:hover {
+           color:blue;
+       }
+
+       
+       
+        #search_bar {
+           width:400px;
+           height:2%;
+           position: absolute;
+           top: 50%;
+           left: 34%;
+           border-radius: 15px;
+       }
+
+       #search_button {
+           height:30px;
+           position: absolute;
+           top: 60%;
+           left: 44%;
+           border-radius: 7px;
+       }
+
+        input[value="Google Advanced Search"] {
+           padding: 5px;
+       }
+
+       #header_nav {
+           position: right;
+           top: 0px;
+           left: 0px;
+           font-size: 14px;
+           color:blue;
+       }
+
+       .header_text {
+           position: right;
+           top: -20px;
+           left: 88px;
+           font-size: 20px;
+       }
+
+       #search_section {
+           position: absolute;
+           top: 30%;
+       } 
+
+       
+       #all_words_search {
+           position: relative;
+           left: 16%;
+           width: 250px;
+           height: 5px;
+       }
+
+       #any_word_search {
+           position: relative;
+           left: 11%;
+           width: 250px;
+           height: 5px;
+       }
+
+       #none_these_words_search {
+           position: relative;
+           left: 9%;
+           width: 250px;
+           height: 5px;
+       }
+
+       #exact_word_search {
+           position: relative;
+           left: 2%;
+           width: 250px;
+           height: 5px;
+       }
+
+       #submit {
+           position: relative;
+           background-color: blue;
+           color: white;
+           height: 25px;
+           padding: 3px;
+           left: 77%;
+
+       }
+    </style>
+
+    <form id="search_section" action="https://www.google.com/advanced_search">
+    <label for="all_words_search"> All these words: </label> 
+    <input id="all_words_search" type="text" name="all_words_search"> <br> <br>
+    <label for="exact_word_search"> This exact word or phrase: </label> 
+    <input id="exact_word_search" type="text" name="exact_word_search"> <br> <br>
+    <label for="any_word_search"> Any of these words: </label> 
+    <input id="any_word_search" type="text" name="any_word_search"> <br> <br>
+    <label for="none_these_words"> None of these words: </label> 
+    <input id="none_these_words_search" type="text" name="none_these_words_search"> <br> <br>
+    <input id="submit" type="submit" value="Advanced Search">
+    </form>
